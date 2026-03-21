@@ -1,0 +1,41 @@
+MODEL_PATH = "face_landmarker.task"
+CAMERA_INDEX = 0
+WINDOW_NAME = "Professional Fatigue Detection System"
+
+SAVE_TO_CSV = True
+CSV_FILE = "fatigue_features_log.csv"
+
+# Slightly slower than the fast hybrid version
+SUMMARY_INTERVAL = 8.0
+MAX_FACES = 1
+DRAW_LANDMARKS = True
+
+# Immediate fatigue override
+CONTINUOUS_EYE_CLOSURE_FATIGUE_SEC = 5.0
+
+# Camera/dashboard layout
+CAM_W = 960
+CAM_H = 720
+PANEL_W = 470
+WINDOW_W = CAM_W + PANEL_W
+WINDOW_H = CAM_H
+
+# Thresholds
+EAR_CLOSED_THRESHOLD = 0.23
+MAR_YAWN_THRESHOLD = 0.65
+
+BLINK_CONSEC_FRAMES = 2
+YAWN_CONSEC_FRAMES = 8
+
+HEAD_NOD_DROP_THRESHOLD = 8.0
+HEAD_NOD_CONSEC_FRAMES = 3
+
+# Landmark indices
+LEFT_EYE_IDX = [33, 160, 158, 133, 153, 144]
+RIGHT_EYE_IDX = [362, 385, 387, 263, 373, 380]
+MOUTH_IDX = [61, 81, 13, 311, 291, 402, 14, 178]
+
+LEFT_EYE_OUTER = 33
+RIGHT_EYE_OUTER = 263
+FOREHEAD_IDX = 10
+CHIN_IDX = 152
