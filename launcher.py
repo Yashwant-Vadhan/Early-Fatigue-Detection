@@ -8,7 +8,7 @@ from tkinter import messagebox
 # =========================================================
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-VENV_PYTHON = r"C:\Users\M A SUSHIL KUMAR\OneDrive\Desktop\models\venv\Scripts\python.exe"
+VENV_PYTHON = r"venv\Scripts\python.exe"
 
 HYBRID_MAIN = os.path.join(BASE_DIR, "hybrid_model", "main.py")
 THRESHOLD_MAIN = os.path.join(BASE_DIR, "threshold_model", "main.py")
