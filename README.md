@@ -189,16 +189,6 @@ Some features such as Twilio emergency messaging, WhatsApp notification, and loc
 
 ---
 
-## 👨‍💻 Author
-
-**M A SUSHIL KUMAR**
-
-- GitHub: [skoder404](https://github.com/skoder404)
-- LinkedIn: [sushil006](https://www.linkedin.com/in/sushil006)
-- Email: sushilmit28@gmail.com
-
----
-
 ## 📜 License
 
 This project is for academic and learning purposes.
