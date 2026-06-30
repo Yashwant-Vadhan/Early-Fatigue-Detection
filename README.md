@@ -99,6 +99,10 @@ Early-Fatigue-Detection-System/
 │
 ├── .env.example
 ├── .gitignore
+├── docs/
+│   ├── PRD.md
+│   ├── DESIGN.md
+│   └── TECH_RULES.md
 ├── launcher.py
 ├── LICENSE
 ├── README.md
@@ -140,7 +144,7 @@ python threshold_model/main.py
 Run the hybrid model:
 
 ```bash
-python hybrid_model/main_hybrid3state_final.py
+python hybrid_model/main.py
 ```
 
 Or run using the launcher:
@@ -162,8 +166,11 @@ Example:
 ```text
 TWILIO_ACCOUNT_SID=your_account_sid
 TWILIO_AUTH_TOKEN=your_auth_token
-TWILIO_PHONE_NUMBER=your_twilio_number
-EMERGENCY_CONTACT_NUMBER=family_member_number
+TWILIO_WHATSAPP_FROM=whatsapp:+14155238886
+EMERGENCY_WHATSAPP_1=whatsapp:+91XXXXXXXXXX
+EMERGENCY_WHATSAPP_2=whatsapp:+91XXXXXXXXXX
+EMERGENCY_WHATSAPP_3=whatsapp:+91XXXXXXXXXX
+EMERGENCY_WHATSAPP_4=whatsapp:+91XXXXXXXXXX
 ```
 
 > Do not upload your real `.env` file to GitHub.
@@ -178,6 +185,8 @@ EMERGENCY_CONTACT_NUMBER=family_member_number
 - Deploy the system as a desktop or web application
 - Optimize real-time performance
 - Improve alert customization and emergency response flow
+
+📄 **See [`/docs`](./docs) for the full web platform architecture** — Product Requirements (`PRD.md`), UI/UX Design System (`DESIGN.md`), and Technical Specification (`TECH_RULES.md`) covering the planned migration of this desktop system to a browser-based, cloud-hosted platform with a companion mobile app.
 
 ---
 

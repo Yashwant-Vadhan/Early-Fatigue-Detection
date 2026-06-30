@@ -9,5 +9,3 @@ scikit-learn
 twilio
 pygame
 python-dotenv
-features
-detector
